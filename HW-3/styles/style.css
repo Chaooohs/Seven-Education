@@ -19,25 +19,26 @@ body {
   color: #e8c23e;
 }
 .image-one {
-  width: 1000px;
-  height: 532px;
+  position: relative;
   margin-top: 30px;
 }
 .image-one-background {
-  position: absolute;
-  width: 1000px;
-  background-image: url("/HW-3/img/background.png");
+  width: 100%;
 }
 .image-one-flag {
   position: absolute;
-  margin: 124px 0 0 80px;
+  height: 220px;
+  top: 158px;
+  left: 52px;
 }
 .image-one-text {
   position: absolute;
   font-size: 38px;
+  letter-spacing: 1.1px;
   line-height: 157.3%;
+  top: 146px;
+  left: 84px;
   color: #fff;
-  margin: 156px 0 0 124px ;
 }
 .places {
   margin-top: 48px;
@@ -60,12 +61,12 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 1000px;
-  margin-top: 42px; 
+  margin-top: 42px;
 }
 .card > div {
   width: 270px;
   height: 332px;
-  border: 3px solid #0D095F;
+  border: 3px solid #0d095f;
   border-radius: 24px;
 }
 .card-tuskan {
@@ -83,25 +84,24 @@ body {
 .card-name {
   font-size: 16px;
   letter-spacing: 1.1px;
-  color: #0072DB;
+  color: #0072db;
   margin: 16px 0 0 10px;
 }
 .card-discript {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 1.1px;
-  color: #FF9900;
+  color: #ff9900;
   margin: 14px 0 0 12px;
 }
 .cheer {
   width: 1000px;
   margin-top: 52px;
   text-align: center;
-  
 }
 .cheer-title {
-  font-size: 26px; 
-  letter-spacing: 1.1px; 
+  font-size: 26px;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
   border: 3px blue;
 }
@@ -110,12 +110,12 @@ body {
   margin: 32px 0 22px 0;
 }
 .rectangle {
-	width: 348px;
-	height: 56px;  
-	border-radius: 50px;
-  border: 2px solid #2A61F0;
-	background: #2A61F0;
-  margin: auto
+  width: 348px;
+  height: 56px;
+  border-radius: 50px;
+  border: 2px solid #2a61f0;
+  background: #2a61f0;
+  margin: auto;
 }
 .rectangle:hover {
   border: 2px solid #e8c23e;
@@ -130,6 +130,6 @@ body {
 .footer {
   width: 1000px;
   height: 160px;
-  background: linear-gradient(180deg, #013235 0%, #0D0661 100%);
+  background: linear-gradient(180deg, #013235 0%, #0d0661 100%);
   margin-top: 36px;
 }
