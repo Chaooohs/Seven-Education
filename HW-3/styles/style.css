@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   background-color: #e5e5e5;
   margin: auto;
@@ -34,8 +34,6 @@ body {
 }
 .image-one-text {
   position: absolute;
-  width: 1036px;
-  height: 304px;
   font-size: 38px;
   line-height: 157.3%;
   color: #fff;
@@ -46,11 +44,17 @@ body {
 }
 .places-title {
   font-size: 26px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
   margin: 0 0 0 68px;
 }
 .places-flag {
   width: 544px;
   margin-top: 6px;
+}
+.places-flag-image {
+  width: 100%;
+  height: 100%;
 }
 .card {
   display: flex;
@@ -65,14 +69,67 @@ body {
   border-radius: 24px;
 }
 .card-tuskan {
-  box-shadow: -16px 21px 40px rgba(0, 209, 255, 0.35);
+  box-shadow: -14px 14px 32px rgba(0, 209, 255, 0.18);
 }
 .card-lusk {
-  box-shadow: 0px 21px 35px rgba(0, 209, 255, 0.35);
+  box-shadow: 0px 14px 32px rgba(0, 209, 255, 0.18);
 }
 .card-tuskan-2 {
-  box-shadow: 16px 21px 40px rgba(0, 209, 255, 0.35);
+  box-shadow: 14px 14px 32px rgba(0, 209, 255, 0.18);
 }
 .card-image {
   width: 100%;
+}
+.card-name {
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  color: #0072DB;
+  margin: 16px 0 0 10px;
+}
+.card-discript {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  color: #FF9900;
+  margin: 14px 0 0 12px;
+}
+.cheer {
+  width: 1000px;
+  margin-top: 52px;
+  text-align: center;
+  
+}
+.cheer-title {
+  font-size: 26px; 
+  letter-spacing: 1.1px; 
+  text-transform: uppercase;
+  border: 3px blue;
+}
+.cheer-image {
+  width: 664px;
+  margin: 32px 0 22px 0;
+}
+.rectangle {
+	width: 348px;
+	height: 56px;  
+	border-radius: 50px;
+  border: 2px solid #2A61F0;
+	background: #2A61F0;
+  margin: auto
+}
+.rectangle:hover {
+  border: 2px solid #e8c23e;
+}
+.cheer-text {
+  font-size: 44px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+}
+.footer {
+  width: 1000px;
+  height: 160px;
+  background: linear-gradient(180deg, #013235 0%, #0D0661 100%);
+  margin-top: 36px;
 }
