@@ -21,27 +21,21 @@ body {
   color: #e8c23e;
   /* color: #DFE31E; */
 }
-.image-one {
-  position: relative;
+.img-with-flag {
+  width: 100%;
+  height: 522px;
+  background: url("../img/flag.png"), url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: 50px, left;
+  background-size: 16px 290px, 100%;
   margin-top: 30px;
 }
-.image-one-background {
-  width: 100%;
-}
-.image-one-flag {
-  position: absolute;
-  height: 42%;
-  top: 29%;
-  left: 4%;
-}
-.image-one-text {
-  position: absolute;
-  font-size: 38px;
-  letter-spacing: 1.1px;
+.img-with-flag-text {
+  font-size: 4vw;
+  letter-spacing: 0.1px;
   line-height: 157.3%;
-  top: 27%;
-  left: 8%;
   color: #fff;
+  padding: 142px 0px 0 80px
 }
 .places {
   margin-top: 48px;
@@ -147,7 +141,7 @@ body {
   font-size: 27px;
   line-height: 32px;
   letter-spacing: 0.1em;
-  color: #A89D9D;
+  color: #a89d9d;
 }
 .icon-box {
   margin-top: 8px;
@@ -155,5 +149,5 @@ body {
 .icon {
   font-size: 22px;
   margin: 20px;
-  color: #A89D9D;
+  color: #a89d9d;
 }
