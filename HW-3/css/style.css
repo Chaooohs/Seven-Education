@@ -114,8 +114,8 @@ body {
   margin: 32px 0 22px 0;
 }
 .rectangle {
-  /* width: 348px; */
-  width: 40%;
+  width: 348px;
+  /* width: 40%; */
   height: 56px;
   border-radius: 50px;
   background: #2a61f0;
