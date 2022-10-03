@@ -31,6 +31,7 @@ body {
   margin-top: 30px;
 }
 .img-with-flag-text {
+  /* font-size: calc(14px + 14 * ((100vw - 700px) / (1000 - 700))); */
   font-size: 28px;
   letter-spacing: 1.1px;
   line-height: 157.3%;
@@ -68,26 +69,28 @@ body {
   margin-right: 3%;
 }
 .card-tuskan {
+  background: url('../img/tustan.png') top/100% no-repeat;
   box-shadow: -14px 14px 32px rgba(0, 209, 255, 0.18);
 }
 .card-lusk {
+  background: url('../img/lusk.png') top/100% no-repeat;
   box-shadow: 0px 14px 32px rgba(0, 209, 255, 0.18);
 }
 .card-tuskan-2 {
+  background: url('../img/tustan_2.png') top/100% no-repeat;
   box-shadow: 14px 14px 32px rgba(0, 209, 255, 0.18);
 }
-.card-image {
-  width: 100%;
-}
 .card-name {
-  font-size: 16px;
+  font-size: calc(14px + 2 * ((100vw - 700px) / (1000 - 700)));
+  /* font-size: 16px; */
   letter-spacing: 1.1px;
   color: #0072db;
-  margin: 16px 0 0 10px;
+  margin: 216px 0 0 10px;
 }
 .card-discript {
+  font-size: calc(10px + 2 * ((100vw - 700px) / (1000 - 700)));
+  /* font-size: 14px; */
   font-weight: 400;
-  font-size: 14px;
   letter-spacing: 1.1px;
   color: #ff9900;
   margin: 14px 0 0 12px;
