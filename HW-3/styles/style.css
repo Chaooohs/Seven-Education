@@ -19,6 +19,7 @@ body {
 }
 .str-uk-yellow {
   color: #e8c23e;
+  /* color: #DFE31E; */
 }
 .image-one {
   position: relative;
@@ -148,9 +149,11 @@ body {
   letter-spacing: 0.1em;
   color: #A89D9D;
 }
-.icon {
-  margin-top: 2px;
+.icon-box {
+  margin-top: 8px;
 }
-.icon-fcbk {
+.icon {
+  font-size: 22px;
   margin: 20px;
+  color: #A89D9D;
 }
