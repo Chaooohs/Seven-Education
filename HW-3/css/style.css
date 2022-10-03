@@ -31,11 +31,11 @@ body {
   margin-top: 30px;
 }
 .img-with-flag-text {
-  font-size: 4vw;
-  letter-spacing: 0.1px;
+  font-size: 28px;
+  letter-spacing: 1.1px;
   line-height: 157.3%;
   color: #fff;
-  padding: 142px 0px 0 80px
+  padding: 174px 0px 0 80px;
 }
 .places {
   margin-top: 48px;
