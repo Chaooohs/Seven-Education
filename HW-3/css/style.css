@@ -27,7 +27,7 @@ body {
   background: url("../img/flag.png"), url("../img/background.png");
   background-repeat: no-repeat;
   background-position: 50px, left;
-  background-size: 16px 290px, 100%;
+  background-size: 12px 170px, 100%;
   margin-top: 30px;
 }
 .img-with-flag-text {
