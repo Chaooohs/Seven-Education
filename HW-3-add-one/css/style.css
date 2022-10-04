@@ -50,7 +50,7 @@ body {
 .block4 {
   width: 500px;
   height: 500px;
-  background: url("../img/gerb_1.png") 0 0/58px 86px no-repeat, url('../img/gerb_1.png') 100% 0/58px 86px no-repeat, url("../img/Vector_1.png") 50% 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
+  background: url("../img/gerb_1.png") 0 0/58px no-repeat, url('../img/gerb_1.png') 100% 0/58px no-repeat, url("../img/Vector_1.png") 50% 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
 }
 .block5 {
   width: 500px;
@@ -79,5 +79,5 @@ body {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: url("../img/gerb_1.png") 4% 50%/58px 86px no-repeat, url("../img/gerb_1.png") 50% 96%/58px 86px no-repeat, url('../img/gerb_1.png') 96% 50%/58px 86px no-repeat, url("../img/Vector_1.png") 50% 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
+  background: url("../img/gerb_1.png") 4% 50%/58px no-repeat, url("../img/gerb_1.png") 50% 96%/58px no-repeat, url('../img/gerb_1.png') 96% 50%/58px no-repeat, url("../img/Vector_1.png") 50% 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
 }
