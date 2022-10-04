@@ -139,6 +139,7 @@ body {
   margin-top: 36px;
 }
 .footer-str-uk {
+  text-decoration: none;
   margin-top: 0;
 }
 .footer-info {
@@ -147,6 +148,7 @@ body {
   font-size: 27px;
   line-height: 32px;
   letter-spacing: 0.1em;
+  text-decoration: none;
   color: #a89d9d;
 }
 .icon-box {
