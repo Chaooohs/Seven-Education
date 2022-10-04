@@ -128,9 +128,12 @@ body {
   text-transform: uppercase;
 }
 .footer {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  
+  display: inline-grid;
+  text-align: center;
   width: 100%;
   height: 160px;
   background: linear-gradient(180deg, #013235 0%, #0d0661 100%);
