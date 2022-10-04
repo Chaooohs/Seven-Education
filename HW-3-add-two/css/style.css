@@ -1,0 +1,49 @@
+body {
+  max-width: 1500px;
+  background-color: aquamarine;
+  margin: 0;
+}
+
+/* header */
+
+.above {
+  width: 100%;
+  height: 700px;
+  background: url("../img/inscription.png") center 144px/ 969px 206px no-repeat,
+    url("../img/background.png") 0 0 / 100% no-repeat;
+}
+
+/* menu */
+
+.menu {
+  padding: 112px 112px 40px 112px;
+}
+.cards {
+  display: inline-flex;
+  margin-bottom: 42px;
+}
+.card-one {
+  width: 400px;
+  height: 460px;
+  background: #231b0c;
+}
+.card-two {
+  width: 400px;
+  height: 460px;
+  margin-left: 38px;
+  background: #231b0c;
+}
+.card-three {
+  width: 400px;
+  height: 460px;
+  margin-left: 38px;
+  background: #231b0c;
+}
+
+/* footer */
+
+.below {
+  width: 1500px;
+  height: 280px;
+  background: #150F02;
+}
