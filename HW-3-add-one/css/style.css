@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 141, 200, 1) 16%,
+    rgba(247, 233, 46, 1) 84%
+  );
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1218px;
+  height: 2964px;
+  margin: auto;
+  background: #ffffff;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.block0 {
+  width: 500px;
+  height: 500px;
+  background: url("../img/Group_1.png") 0 0 no-repeat;
+}
+.block1 {
+  width: 500px;
+  height: 500px;
+  background: url('../img/img1_1.png') center no-repeat, url("../img/Group_1.png") 0 0 no-repeat;
+}
+.block2 {
+  width: 500px;
+  height: 500px;
+  background: url('../img/gerb_1.png') 10% 50% no-repeat, url("../img/Rectangle_1.png") left no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
+}
+.block3 {
+  width: 500px;
+  height: 500px;
+  background: url('../img/Plane_1.png') 100% 100% no-repeat, url("../img/Group_1.png") 0 0 no-repeat;
+}
+.block4 {
+  width: 500px;
+  height: 500px;
+  background: url("../img/gerb_1.png") 0 0/58px 86px no-repeat, url('../img/gerb_1.png') 100% 0/58px 86px no-repeat, url("../img/Vector_1.png") 50% 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
+}
+.block5 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: url("../img/Group_1.png") 0 0 no-repeat;
+}
+.block6 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: url('../img/img1_1.png') center no-repeat, url("../img/Group_1.png") 0 0 no-repeat;
+}
+.block7 {
+  width: 500px;
+  height: 500px;
+  background: url('../img/gerb_1.png') 50% no-repeat, url("../img/Rectangle_1.png") 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
+}
+.block8 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: url('../img/Plane_1.png') center no-repeat, url("../img/Group_1.png") 0 0 no-repeat;
+}
+.block9 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: url("../img/gerb_1.png") 4% 50%/58px 86px no-repeat, url("../img/gerb_1.png") 50% 96%/58px 86px no-repeat, url('../img/gerb_1.png') 96% 50%/58px 86px no-repeat, url("../img/Vector_1.png") 50% 50% no-repeat, url('../img/Group_1.png') 0 0 no-repeat;
+}
