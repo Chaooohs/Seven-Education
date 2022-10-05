@@ -1,48 +1,30 @@
 body {
-  max-width: 1500px;
+  width: 1500px;
   background: #fff;
   margin: 0;
-}
-.breadth {
-  width: 100%;
+  background: url('../img/inscription.png') 265px 144px no-repeat, url('../img/background.png') 0 0 no-repeat;
 }
 
 /* #region header */
 
 .above {
-  /* height: 700px; */
-  height: 0px;
-  padding-bottom: 46.5%;
-  background: url("../img/inscription.png") center 29%/ 64.9% no-repeat,
-    url("../img/background.png") 0 0 / 100% no-repeat;
+  height: 700px;
 }
 
 /* #endregion */
 
 /* #region menu */
 
-.menu {
-  padding: 32px 112px 40px 112px;
-}
-.menu-title {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
-  text-transform: uppercase;
-  margin: 0 0 32px 0;
-  color: #000;
+.content {
+  margin-left: 112px;
 }
 .cards {
   display: inline-flex;
-  height: 0px;
-  padding-bottom: 40%;
+  width: 1500px;
 }
 .card-one {
   width: 400px;
-  /* height: 460px; */
-  height: 0px;
-  padding-bottom: 36%;
+  height: 460px;
   background: url("../img/galery.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_galery.png") 50% 78%/ 74% no-repeat, #231b0c;
   transition: 0.4s;
@@ -52,9 +34,7 @@ body {
 }
 .card-two {
   width: 400px;
-  /* height: 460px; */
-  height: 0px;
-  padding-bottom: 36%;
+  height: 460px;
   margin-left: 38px;
   background: url("../img/sport.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_sport.png") 50% 78%/ 74% no-repeat, #231b0c;
@@ -65,9 +45,7 @@ body {
 }
 .card-three {
   width: 400px;
-  /* height: 460px; */
-  height: 0px;
-  padding-bottom: 36%;
+  height: 460px;
   margin-left: 38px;
   background: url("../img/more.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_more.png") 50% 78%/ 74% no-repeat, #231b0c;
@@ -76,27 +54,35 @@ body {
 .card-three:hover {
   transform: translateY(20px);
 }
+.picture {
+  margin-top: 40px;
+}
 
 /* #endregion */
 
 /* #region footer */
 
 .below {
+  width: 1500px;
+  height: 280px;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  margin-top: 40px;
   background: #150f02;
 }
-.below-internal-link {
-  display: flex;
-  justify-content: space-evenly;
+.column-left {
   height: 80px;
-  margin-bottom: 12px;
-  padding-right: 44px;
-}
-.below-internal-link-column {
   display: inline-grid;
-  text-align: left;
+  text-align: end;
+  padding-top: 40px;
+  /* margin-left: 420px; */
+}
+.column-right {
+  height: 80px;
+  display: inline-grid;
+  text-align: start;
+  padding-top: 40px;
+  margin-left: 370px;
+  padding-right: 99px;
 }
 .contact {
   font-family: "Roboto";
