@@ -13,14 +13,14 @@ body {
 
 /* #endregion */
 
-/* #region menu */
+/* #region content */
 
 .content {
+  margin-top: 40px;
   margin-left: 112px;
 }
 .cards {
   display: inline-flex;
-  width: 1500px;
 }
 .card-one {
   width: 400px;
@@ -63,7 +63,6 @@ body {
 /* #region footer */
 
 .below {
-  width: 1500px;
   height: 280px;
   text-align: center;
   margin-top: 40px;
@@ -86,7 +85,7 @@ body {
 }
 .contact {
   font-family: "Roboto";
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 137.21%;
   letter-spacing: 0.15em;
@@ -95,7 +94,6 @@ body {
   color: #ffffff;
 }
 .icon-box {
-  width: 100%;
   margin-top: 20px;
 }
 .icon {
