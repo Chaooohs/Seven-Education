@@ -10,8 +10,10 @@ body {
 /* #region header */
 
 .above {
-  height: 700px;
-  background: url("../img/inscription.png") center 144px/ 969px 206px no-repeat,
+  /* height: 700px; */
+  height: 0px;
+  padding-bottom: 46.5%;
+  background: url("../img/inscription.png") center 29%/ 64.9% no-repeat,
     url("../img/background.png") 0 0 / 100% no-repeat;
 }
 
@@ -33,11 +35,14 @@ body {
 }
 .cards {
   display: inline-flex;
-  margin-bottom: 42px;
+  height: 0px;
+  padding-bottom: 40%;
 }
 .card-one {
   width: 400px;
-  height: 460px;
+  /* height: 460px; */
+  height: 0px;
+  padding-bottom: 36%;
   background: url("../img/galery.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_galery.png") 50% 78%/ 74% no-repeat, #231b0c;
   transition: 0.4s;
@@ -47,7 +52,9 @@ body {
 }
 .card-two {
   width: 400px;
-  height: 460px;
+  /* height: 460px; */
+  height: 0px;
+  padding-bottom: 36%;
   margin-left: 38px;
   background: url("../img/sport.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_sport.png") 50% 78%/ 74% no-repeat, #231b0c;
@@ -58,7 +65,9 @@ body {
 }
 .card-three {
   width: 400px;
-  height: 460px;
+  /* height: 460px; */
+  height: 0px;
+  padding-bottom: 36%;
   margin-left: 38px;
   background: url("../img/more.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_more.png") 50% 78%/ 74% no-repeat, #231b0c;
