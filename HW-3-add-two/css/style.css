@@ -7,7 +7,7 @@ body {
   width: 100%;
 }
 
-/* header */
+/* #region header */
 
 .above {
   height: 700px;
@@ -15,7 +15,9 @@ body {
     url("../img/background.png") 0 0 / 100% no-repeat;
 }
 
-/* menu */
+/* #endregion */
+
+/* #region menu */
 
 .menu {
   padding: 32px 112px 40px 112px;
@@ -38,23 +40,37 @@ body {
   height: 460px;
   background: url("../img/galery.png") 50% 16%/ 37% no-repeat,
     url("../img/foto_galery.png") 50% 78%/ 74% no-repeat, #231b0c;
+  transition: 0.4s;
+}
+.card-one:hover {
+  transform: translateY(20px);
 }
 .card-two {
   width: 400px;
   height: 460px;
   margin-left: 38px;
-  background: url("../img/galery.png") 50% 16%/ 37% no-repeat,
-    url("../img/foto_galery.png") 50% 78%/ 74% no-repeat, #231b0c;
+  background: url("../img/sport.png") 50% 16%/ 37% no-repeat,
+    url("../img/foto_sport.png") 50% 78%/ 74% no-repeat, #231b0c;
+  transition: 0.4s;
+}
+.card-two:hover {
+  transform: translateY(20px);
 }
 .card-three {
   width: 400px;
   height: 460px;
   margin-left: 38px;
-  background: url("../img/galery.png") 50% 16%/ 37% no-repeat,
-    url("../img/foto_galery.png") 50% 78%/ 74% no-repeat, #231b0c;
+  background: url("../img/more.png") 50% 16%/ 37% no-repeat,
+    url("../img/foto_more.png") 50% 78%/ 74% no-repeat, #231b0c;
+  transition: 0.4s;
+}
+.card-three:hover {
+  transform: translateY(20px);
 }
 
-/* footer */
+/* #endregion */
+
+/* #region footer */
 
 .below {
   text-align: center;
@@ -92,3 +108,5 @@ body {
   margin: 0 20px;
   color: #a89d9d;
 }
+
+/* #endregion */
