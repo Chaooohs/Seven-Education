@@ -21,6 +21,7 @@ body {
   font-size: 48px;
   line-height: 56px;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 0.165em;
   color: #14c5c4;
   margin: 0 0 0 160px;
@@ -133,13 +134,63 @@ body {
 .descript-image {
   width: 432px;
   height: 588px;
+  text-align: center;
 }
 .descript-image-round {
   width: 432px;
   height: 432px;
   border-radius: 50%;
-  background: #EAFCFC;
+  background: #eafcfc;
   margin-top: -500px;
 }
 
 /* #endregion */
+
+/* #region choise */
+
+.choise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+  background: #eafcfc;
+}
+.review {
+  width: 694px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.63px;
+  margin: 55px 0 65px 0;
+  color: #14c5c4;
+}
+.nav {
+  display: table;                        /* растягивает элементы списка по ширине родителя:раз*/
+  width: 894px;
+  margin: 0 0 62px 0;
+}
+.nav li {
+  display: table-cell;                   /* растягивает элементы списка по ширине родителя:два*/
+}
+.nav a {
+  display: block;                        /* растягивает элементы списка по ширине родителя:три*/
+  text-align: center;                    /* растягивает элементы списка по ширине родителя:четыре*/
+  margin: 0 5px;                         
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #202727;
+}
+.nav a:hover {
+  color: #13A7A5;
+}
+
+/* #endregion */
+
+/* #region */
