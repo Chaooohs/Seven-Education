@@ -180,6 +180,7 @@ body {
   display: table; /* растягивает элементы списка по ширине родителя:раз*/
   width: 894px;
   margin: 0 0 62px 0;
+  padding: 0;
 }
 .nav > li {
   display: table-cell; /* растягивает элементы списка по ширине родителя:два*/
@@ -259,17 +260,12 @@ body {
 
 .background-adapt {
   width: 100%;
-  height: 24em;
-  /* background: url("../img/Background_Adapt.svg") 0 0/100% no-repeat; */
-  background-image: url('../img/Background_Adapt.png');
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: 100%;
+  padding-bottom: 30px;
 }
 
 /* #region composit */
 .composit {
-  padding: 26px 0 32px;
+  padding-bottom: 32px;
 }
 .composit-flower {
   display: flex;
@@ -301,7 +297,7 @@ body {
   align-items: center;
 }
 .composit-text {
-  margin-left: 200px;
+  margin-left: 10%;
 }
 .composit-text-top {
   width: 241px;
@@ -317,8 +313,36 @@ body {
 
 /* #endregion */
 
-.background-drink {
-  width: 100%;
-  height: 24em;
-  background: url("../img/Background_Drink.svg") 0 0/100% no-repeat;
+/* #region carry */
+
+.carry {
+  background: url("../img/Rectangle_3.png") 0 0/100% no-repeat;
+  text-align: center;
+  padding-top: 420px;
 }
+.carry-talk {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.02px;
+  color: #14c5c4;
+}
+.carry-sign {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #202727;
+}
+.carry-shop {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  text-decoration: none;
+  color: #14c5c4;
+}
+
+/* #endregion */
