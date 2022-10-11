@@ -205,7 +205,7 @@ body {
 
 /* #endregion */
 
-/* #region descript*/
+/* #region descript */
 
 .descript {
   display: flex;
@@ -257,7 +257,9 @@ body {
   border: none;
   background: none;
 }
+
 /* #endregion */
+
 
 .background-adapt {
   width: 100%;
@@ -265,6 +267,7 @@ body {
 }
 
 /* #region composit */
+
 .composit {
   padding-bottom: 32px;
 }
