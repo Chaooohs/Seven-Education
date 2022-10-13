@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+
+/* #region fonts */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.font-italic {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 57px;
+  color: #202846;
+}
+.font_italic_bold {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #353c57;
+}
+.font_card {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #202846;
+}
+.font-btn {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-decoration: none;
+  color: #ffffff;
+}
+/* #endregion */
+
+.main {
+  max-width: 1920px;
+  min-width: 1500px;
+  box-sizing: border-box;
+  background: #fbe4ff;
+}
+
+/* #region header */
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0 8px 0;
+  background-color: #243b93;
+}
+.nav {
+  width: 44%;
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-li {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0;
+}
+#nav-li-five{
+  text-align: center;
+}
+.gloab {
+  display: flex;
+  align-items: center;
+}
+.lang {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+  margin: 0 0 0 10px;
+}
+
+/* #endregion */
+
+/* #region reserve */
+.reserve-title {
+  background: #bff0ff;
+  margin: 0;
+  padding: 16px 0 12px 15%;
+}
+.choise {
+  width: 1321px;
+  margin: auto;
+}
+.choise-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 26px;
+  padding: 10px 12px 10px 40%;
+  background-color: #fff;
+}
+.choise-menu-text {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.61);
+}
+.card {
+  position: relative;
+  display: flex;
+  align-items: end;
+  background: linear-gradient(92.95deg, #adcbd5 0%, #00aee6 100%);
+  margin-top: 30px;
+  padding: 14px 52px 20px 52px;
+}
+.card-star {
+  font-size: 48px;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: brown;
+}
+.card-btn {
+  position: absolute;
+  width: 210px;
+  height: 46px;
+  left: 1144px;
+  bottom: 12px;
+  background: #243b93;
+  border-radius: 30px;
+  border: none;
+}
+.card:hover {
+  background: #2cbdeb;
+  box-shadow: 0px 0px 60px 4px #2cbdeb;
+}
+.card:hover > .card-star {                                                /* один :hover для двух элементов */
+  color: #fff500;
+}
+.card:hover > .card-btn {
+  background: #EF075B;
+}
+.card-img {
+  width: 100%;
+}
+.card-place {
+  margin-left: 30px;
+}
+hr {
+  border: none;
+  background-color: #fff;
+  color: #fff;
+  height: 4px;
+  margin: 0;
+}
+.card-place-info {
+  height: 205px;
+  background: #edfbff;
+  overflow: auto;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 13px 100px 0 16px;
+}
+/* #endregion */
+
+/* #region */
+.acount-title {
+  background: linear-gradient(90deg, #FFE601 0%, #55D6FF 100%);
+  margin: 40px 0 0 0;
+  padding: 16px 0 12px 15%;
+}
+
+/* #endregion */
