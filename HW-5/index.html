@@ -10,27 +10,28 @@
 </head>
 
 <body>
+
+  <header class="header">
+    <div>
+      <img src="./img/logo.svg" alt="">
+    </div>
+    <div class="nav">
+      <ul class="nav-ul">
+        <li><a class="nav-li" href="#">Головна</a></li>
+        <li><a class="nav-li" href="#">Про нас</a></li>
+        <li><a class="nav-li" href="#">Забронювати</a></li>
+        <li><a class="nav-li" href="#">Контакты</a></li>
+        <li id="nav-li-five"><a class="nav-li" href="#">Особистий <br> Кабiнет</a></li>
+      </ul>
+    </div>
+    <div class="gloab">
+      <img src="./img/globe.svg" alt="img">
+      <a class="lang" href="#"> UA </a>
+    </div>
+  </header>
+  
   <div class="main">
-
-    <header class="header">
-      <div>
-        <img src="./img/logo.svg" alt="">
-      </div>
-      <div class="nav">
-        <ul class="nav-ul">
-          <li><a class="nav-li" href="#">Головна</a></li>
-          <li><a class="nav-li" href="#">Про нас</a></li>
-          <li><a class="nav-li" href="#">Забронювати</a></li>
-          <li><a class="nav-li" href="#">Контакты</a></li>
-          <li id="nav-li-five"><a class="nav-li" href="#">Особистий <br> Кабiнет</a></li>
-        </ul>
-      </div>
-      <div class="gloab">
-        <img src="./img/globe.svg" alt="img">
-        <a class="lang" href="#"> UA </a>
-      </div>
-    </header>
-
+    
     <section class="reserve">
       <h2 class="reserve-title font-italic">Забронювати будиночок</h2>
 
@@ -123,21 +124,61 @@
             <a href="#"><button class="acc-btn-change font-btn"> Змінити аватар</button></a>
             <a href="#"><button class="acc-btn-setting font-btn"> Налаштування </button></a>
           </div>
-          <div class="acc-info">
-            <span class="font_italic_bold"> Нищук Дмитро Миколайович </span>
-            <span class="font_italic_bold"> Стать: <span class="font_italic_acc">чоловіча</span> </span>
-            <span class="font_italic_bold"> Дата народження: <span class="font_italic_acc">10. 02. 1998</span> </span>
-            <span class="font_italic_bold"> Мобільний телефон: <span class="font_italic_acc">+38(097)346-72-50</span> </span>
-            <span class="font_italic_bold"> Ел. пошта: <span class="font_italic_acc">petrov@gmail.com</span> </span>
-          </div>
-
+          <table class="acc-info">
+            <tr>
+              <td class="font_italic_bold">Нищук Дмитро Миколайович</td>
+            </tr>
+            <tr>
+              <td class="font_italic_bold">Стать: <span class="font_italic_acc">чоловіча</span> </td>
+            </tr>
+            <tr>
+              <td class="font_italic_bold">Дата народження: <span class="font_italic_acc">10. 02. 1998</span></td>
+            </tr>
+            <tr>
+              <td class="font_italic_bold">Мобільний телефон: <span class="font_italic_acc">+38(097)346-72-50</span></td>
+            </tr>
+            <tr>
+              <td class="font_italic_bold">Ел. пошта: <span class="font_italic_acc">petrov@gmail.com</span></td>
+            </tr>
+          </table>
         </div>
-        <div class="acc-exit-btn">
-
-        </div>
+        <a href="#"><button class="acc-exit-btn font-btn"> Вийти </button></a>
       </div>
 
       
+    </section>
+
+    <section class="contanct">
+      <h2 class="contact-title font-italic"> Контакти </h2>
+      <div class="contant-body">
+        <div class="contact-data">
+          <table>
+            <tr>
+              <td class="contact-data-above"> Телефон </td>
+            </tr>
+            <tr>
+              <td class="contact-data-below"> +38(097)009-89-83 </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="contact-data-above"> Ел. пошта </td>
+            </tr>
+            <tr>
+              <td class="contact-data-below"> hello@gmail.com </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="contact-data-above"> Адреса офісу </td>
+            </tr>
+            <tr>
+              <td class="contact-data-below"> м. Київ, вул. Малевича, буд. 4 </td>
+            </tr>
+          </table>
+        </div>
+        <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227094.24157414905!2d-109.4157539625779!3d-27.208236802843597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9947fa532c310a17%3A0x95aabbca2c061a0c!2z0JDQvdCz0LAt0KDQvtCwLCDQntGB0YLRgNC-0LIg0J_QsNGB0YXQuCwg0JLQsNC70YzQv9Cw0YDQsNC40YHQviwg0KfQuNC70Lg!5e0!3m2!1sru!2sua!4v1665695817411!5m2!1sru!2sua" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
 
 
