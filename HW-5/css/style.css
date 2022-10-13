@@ -21,6 +21,14 @@ body {
   line-height: 47px;
   color: #353c57;
 }
+.font_italic_acc {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #353c57;
+}
 .font_card {
   font-family: "PT Sans";
   font-weight: 400;
@@ -40,7 +48,7 @@ body {
 
 .main {
   max-width: 1920px;
-  min-width: 1500px;
+  min-width: 1400px;
   box-sizing: border-box;
   background: #fbe4ff;
 }
@@ -75,7 +83,7 @@ body {
   color: #fff;
   padding: 0;
 }
-#nav-li-five{
+#nav-li-five {
   text-align: center;
 }
 .gloab {
@@ -100,8 +108,9 @@ body {
   padding: 16px 0 12px 15%;
 }
 .choise {
-  width: 1321px;
+  width: 1320px;
   margin: auto;
+  /* padding: 0 300px; */
 }
 .choise-menu {
   display: flex;
@@ -132,27 +141,28 @@ body {
   position: absolute;
   top: 6px;
   right: 10px;
-  color: brown;
+  color: #fff;
 }
 .card-btn {
   position: absolute;
   width: 210px;
   height: 46px;
-  left: 1144px;
+  right: -33px;
   bottom: 12px;
   background: #243b93;
   border-radius: 30px;
   border: none;
+  cursor: pointer;
 }
 .card:hover {
   background: #2cbdeb;
   box-shadow: 0px 0px 60px 4px #2cbdeb;
 }
-.card:hover > .card-star {                                                /* один :hover для двух элементов */
+.card:hover > .card-star {
   color: #fff500;
 }
 .card:hover > .card-btn {
-  background: #EF075B;
+  background: #ef075b;
 }
 .card-img {
   width: 100%;
@@ -178,10 +188,59 @@ hr {
 /* #endregion */
 
 /* #region */
-.acount-title {
-  background: linear-gradient(90deg, #FFE601 0%, #55D6FF 100%);
-  margin: 40px 0 0 0;
+.acc-title {
+  background: linear-gradient(90deg, #ffe601 0%, #55d6ff 100%);
+  margin: 40px 0 36px 0;
   padding: 16px 0 12px 15%;
+}
+.acc-body {
+  width: 1320px;
+  margin: auto;
+}
+.acc-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    #859eff 0%,
+    rgba(105, 255, 210, 0.5) 100%
+  );
+  padding: 46px 80px 44px 148px;
+}
+.acc-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.acc-btn-change {
+  width: 250px;
+  height: 50px;
+  background: #243b93;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 36px;
+}
+.acc-btn-setting {
+  width: 250px;
+  height: 50px;
+  background: #ef075b;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 36px;
+}
+.acc-info {
+  display: flex;
+  flex-direction: column;
+}
+.acc-exit-btn {
 }
 
 /* #endregion */
+
+/* 
+один :hover для двух элементов стр 154
+изиенение курсора при наведении стр 206 
+*/
