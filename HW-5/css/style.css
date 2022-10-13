@@ -115,7 +115,7 @@ body {
 }
 .choise-menu {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   margin-top: 26px;
   padding: 10px 12px 10px 40%;
@@ -248,7 +248,8 @@ td {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  margin: 20px auto 0 auto;
+  margin: 20px 0 0 50%;
+  transform: translate(-50%, 0%);
 }
 
 /* #endregion */
