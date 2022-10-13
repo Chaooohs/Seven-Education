@@ -300,6 +300,21 @@ td {
 }
 /* #endregion */
 
+/* #region footer */
+.footer {
+  font-family: 'PT Sans';;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+  background: #243b93;
+  margin-top: 28px;
+  padding: 24px 0 24px 8%;
+}
+
+/* #endregion */
+
 
 
 
