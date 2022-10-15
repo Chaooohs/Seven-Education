@@ -1,0 +1,65 @@
+:root {
+  --c-dark: #000;
+  --c-light: #fff;
+  --c-yellow: #ffb742;
+  --c-dark-gray: #212529;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  max-width: 1400px;
+  background: #212529;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 5rem 0;
+}
+
+.header_icon {
+  width: 9rem;
+  height: 6.5rem;
+}
+.nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav > a {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--c-light);
+}
+
+.nav > a :hover {
+  color: var(--c-yellow);
+}
+
+.header_btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--c-dark-gray);
+  background-color: var(--c-yellow);
+  border: 0.2rem solid var(--c-yellow);
+  border-radius: 5rem;
+  padding: 1.2rem 2.6rem;
+
+}
