@@ -48,6 +48,9 @@ body {
 
 /* #region header */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -238,7 +241,7 @@ hr {
 .acc-info {
   height: 408px;
 }
-td {
+.acc-info td {
   border-bottom: 4px solid #fff;
 }
 .acc-exit-btn {
@@ -288,6 +291,7 @@ td {
   font-weight: 400;
   font-size: 30px;
   line-height: 39px;
+  text-decoration: none;
   color: #000000;
   border-bottom: none;
 }
@@ -303,12 +307,12 @@ td {
 
 /* #region footer */
 .footer {
-  font-family: 'PT Sans';;
+  font-family: "PT Sans";
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
   letter-spacing: 0.16em;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #243b93;
   margin-top: 28px;
   padding: 24px 0 24px 8%;
@@ -316,10 +320,20 @@ td {
 
 /* #endregion */
 
-
-
+.up_buttom {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101px;
+  height: 101px;
+  left: 89%;
+  bottom: 288px;
+  border-radius: 50%;
+  background: rgba(48, 12, 106, 0.3);
+}
 
 /* 
-один :hover для двух элементов стр 162
-изиенение курсора при наведении стр 226 
+один :hover для двух элементов - class:hover > classTwo
+изиенение курсора при наведении - cursor:pointer
 */
