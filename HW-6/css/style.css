@@ -28,7 +28,7 @@ body {
   background-color: var(--c-yellow);
   border-radius: 5rem;
 }
-.who_i_am {
+.ellip {
   width: 14.8rem;
   height: 4.2rem;
   display: flex;
@@ -41,11 +41,10 @@ body {
   text-transform: uppercase;
   color: var(--c-yellow);
   background: rgba(255, 255, 255, 0.08);
-  border-radius: 50px;
+  border-radius: 5rem;
 }
 .font_h2 {
   font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 5.6rem;
@@ -59,6 +58,13 @@ body {
   font-size: 1.6rem;
   line-height: 3rem;
   color: var(--c-gray);
+}
+.font_customersay {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: var(--c-dark);
 }
 /* #endregion */
 
@@ -135,14 +141,14 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2.4rem;
-  line-height: 5.1rempx;
+  line-height: 5.1rem;
   text-transform: capitalize;
   color: var(--c-light);
   margin-top: 2.6rem;
 }
 .my_avatar {
   width: 21rem;
-  height: 22rempx;
+  height: 22rem;
   margin-top: 2.2rem;
 }
 .my_experience {
@@ -242,7 +248,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #383e45;
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
 }
 .skill_right > div > img {
@@ -250,13 +256,14 @@ body {
 }
 .skill_right > div:hover {
   background: rgba(255, 183, 66, 0.5);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 /* #endregion */
 
 /* #region work */
 .work {
-  margin: 13.6rem;
+  width: 90%;
+  margin: 13.6rem auto 0;
 }
 .work_title {
   display: flex;
@@ -264,6 +271,7 @@ body {
   align-items: center;
 }
 .work_list > ul {
+  width: 67%;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -273,16 +281,93 @@ body {
 .work_list > ul > li > a {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.6rem;
+  line-height: 3rem;
   text-decoration: none;
   color: var(--c-light);
+  padding: 0.5rem 2rem;
 }
 .work_list > ul > li > a:hover {
-  /* width: 61px; */
-  /* height: 60px; */
-  background-size: 60px 40px;
   color: var(--c-dark-gray);
   background: var(--c-yellow);
   border-radius: 3px;
+  padding: 0.5rem 2rem;
 }
+.work_preview {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4.6rem;
+}
+.work_preview div {
+  width: 31%;
+  height: 81rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.work_preview > div > img {
+  width: 100%;
+}
+/* #endregion */
+
+/* #region commet */
+.commet {
+  width: 90%;
+  margin: 13.6rem auto 0;
+  padding-bottom: 25.3rem;
+}
+.commet_view {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 9rem;
+}
+.commet_view_card {
+  width: 30%;
+  height: 45.4rem;
+  background: var(--c-light);
+  border-radius: 0.7rem;
+  box-sizing: border-box;
+  padding: 5rem 5.2rem 4.8rem 3.2rem;
+}
+.commet_view_card_star {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 54%;
+}
+.commet_view_card_star > img {
+  width: 1.4rem;
+}
+.commet_view_card_text {
+  height: 20.8rem;
+  overflow: auto;
+  margin-top: 2.1rem;
+  margin-bottom: 3.6rem;
+}
+.commet_view_card_customer {
+  display: flex;
+  align-items: center;
+}
+.commet_view_card_customer_logo {
+  width: 30%;
+}
+.commet_view_card_customer_init {
+  margin-left: 2.4rem;
+}
+.commet_view_card_customer_init_name {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: var(--c-dark);
+}
+.commet_view_card_customer_init_prof {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.4rem;
+  color: var(--c-dark);
+}
+/* #endregion */
+
+/* #region footer */
