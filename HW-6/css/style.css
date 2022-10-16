@@ -51,6 +51,7 @@ body {
   line-height: 5.6rem;
   text-transform: capitalize;
   color: var(--c-light);
+  margin: 0 0 3rem 0;
 }
 .font_p {
   font-family: "Poppins";
@@ -224,10 +225,6 @@ body {
 .skill_left {
   width: 50%;
 }
-.skill_include {
-  line-height: 5.1rem;
-  margin: 0 0 3rem 0;
-}
 .skill_text {
   margin: 0 0 6.4rem 0;
 }
@@ -258,3 +255,34 @@ body {
 /* #endregion */
 
 /* #region work */
+.work {
+  margin: 13.6rem;
+}
+.work_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work_list > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.work_list > ul > li > a {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  color: var(--c-light);
+}
+.work_list > ul > li > a:hover {
+  /* width: 61px; */
+  /* height: 60px; */
+  background-size: 60px 40px;
+  color: var(--c-dark-gray);
+  background: var(--c-yellow);
+  border-radius: 3px;
+}
