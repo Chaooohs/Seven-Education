@@ -109,8 +109,6 @@ body {
 /* #endregion */
 
 /* #region my */
-.my {
-}
 .my_intro {
   display: flex;
   flex-direction: column;
