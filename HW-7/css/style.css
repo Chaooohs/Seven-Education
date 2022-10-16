@@ -1,0 +1,14 @@
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.frame {
+  width: 1500px;
+  height: 95.9rem;
+  background: linear-gradient(112.23deg, #3E718E 0%, #64969B 100%);
+  margin: 10% auto;
+}
