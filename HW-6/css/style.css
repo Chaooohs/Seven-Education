@@ -1,24 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600;700&family=Roboto:wght@700&family=Work+Sans:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600;700&family=Roboto:wght@700&family=skill+Sans:wght@500;600&display=swap");
 
 :root {
+  font-size: 10px;
   --c-dark: #000;
   --c-light: #fff;
   --c-yellow: #ffb742;
   --c-dark-gray: #212529;
-}
-
-html {
-  font-size: 10px;
+  --c-gray: #d5d5d5;
 }
 
 body {
   margin: 0;
 }
 
+/* #region common */
+.hire_me {
+  width: 12.1rem;
+  height: 5.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--c-dark-gray);
+  background-color: var(--c-yellow);
+  border-radius: 5rem;
+}
+.who_i_am {
+  width: 14.8rem;
+  height: 4.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: var(--c-yellow);
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+}
+.font_h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  text-transform: capitalize;
+  color: var(--c-light);
+}
+.font_p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: var(--c-gray);
+}
+/* #endregion */
+
 .main {
   max-width: 1400px;
-  background: #212529;
+  box-sizing: border-box;
   margin: 0 auto;
+  background: #212529;
 }
 
 /* #region header */
@@ -52,19 +99,6 @@ body {
 .nav > a :hover {
   color: var(--c-yellow);
 }
-
-.header_btn {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 3rem;
-  color: var(--c-dark-gray);
-  background-color: var(--c-yellow);
-  border-radius: 5rem;
-  padding: 1.2rem 2.6rem;
-  cursor: pointer;
-}
 /* #endregion */
 
 /* #region my */
@@ -75,6 +109,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 10.8rem;
+  margin-bottom: 13.6rem;
 }
 .my_name {
   font-family: "Inter";
@@ -91,13 +126,7 @@ body {
   border-bottom: 0.2rem solid var(--c-yellow);
 }
 .my_profession {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4.8rem;
   line-height: 9.1rem;
-  text-transform: capitalize;
-  color: var(--c-light);
   margin: 0;
 }
 .my_to_do {
@@ -116,7 +145,116 @@ body {
   margin-top: 2.2rem;
 }
 .my_experience {
-  margin-top: 13.6rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
 }
+.my_experience_card {
+  width: 32%;
+  height: 12rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: rgba(56, 62, 69, 0.44);
+  border-radius: 1rem;
+}
+.my_experience_card:hover {
+  background: linear-gradient(
+    94.3deg,
+    #ffb742 0%,
+    rgba(255, 123, 66, 0.76) 99.33%
+  );
+}
+.my_experience_card:hover .my_experience_card_title,
+.my_experience_card:hover .my_experience_card_subtitle {
+  color: var(--c-dark-gray);
+}
+.my_experience_card_title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: var(--c-yellow);
+}
+.my_experience_card_subtitle {
+  font-size: 1.6rem;
+  line-height: 3.1rem;
+  color: var(--c-light);
+}
+/* #endregion */
 
+/* #region about me */
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 22.1rem auto 0;
+}
+.about_left {
+  width: 50%;
+}
+.about_left_foto {
+  width: 100%;
+}
+.about_right {
+  width: 50%;
+}
+/* .about_right_title {
+  line-height: ;
+} */
+.about_right_text {
+  width: 94%;
+  height: 17.6rem;
+  margin: 0 0 5.4rem 0;
+  overflow: hidden;
+}
+/* #endregion */
 
+/* #region skill */
+.skill {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.8rem auto 0;
+}
+.skill_left {
+  width: 50%;
+}
+.skill_include {
+  line-height: 5.1rem;
+  margin: 0 0 3rem 0;
+}
+.skill_text {
+  margin: 0 0 6.4rem 0;
+}
+.skill_right {
+  width: 42%;
+  height: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill_right > div {
+  width: 15%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #383e45;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.skill_right > div > img {
+  width: 50%;
+}
+.skill_right > div:hover {
+  background: rgba(255, 183, 66, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* #endregion */
+
+/* #region work */
