@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,61 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>HW-7</title>
 </head>
+
 <body>
   <div class="frame">
-    <div class="main">
+    <div class="page">
+
       <header class="header">
         <div class="header__logo"> Kreativ </div>
         <div class="header__links">
           <ul>
-            <li><a class="font_small-bold" href="#"> Home </a></li>
-            <li><a class="font_small-bold" href="#"> Contact </a></li>
+            <li><a class="font_bold" href="#"> Home </a></li>
+            <li><a class="font_bold" href="#"> Contact </a></li>
           </ul>
         </div>
       </header>
 
-      <div class="form">
-        <span class="form__title"> Let’s get you started </span>
+      <div class="main">
+        <section class="data">
+          <span class="data__title"> Let’s get you started </span>
+          <form class="data__form">
+            <div class="data-form__cell">
+              <label class="font__label" for="name"> Full name </label>
+              <input class="data-form__cell-input font__input" type="text" placeholder="Ade Tiger" id="name">
+            </div>
+            <div class="data-form__cell">
+              <label class="font__label" for="email"> Email address </label>
+              <input class="data-form__cell-input font__input" type="text" placeholder="yourname@email.com" id="email">
+            </div>
+            <div class="data-form__cell">
+              <label class="font__label" for="Phone"> Phone number </label>
+              <input class="data-form__cell-input font__input" type="text" placeholder="+38" id="phone">
+            </div>
+            <div class="data-form__cell">
+              <label class="font__label" for="pass"> Create password </label>
+              <input class="data-form__cell-input font__input" type="password" id="pass">
+            </div>
+            <div class="data-form__cell">
+              <label class="font__label" for="location"> Location (Optional) </label>
+              <input class="data-form__cell-input font__input" type="text" placeholder="Select Location" id="location">
+            </div>
+            <div class="data-form__cell">
+              <input class="data-form__cell-submit font_bold" type="submit" value="Sign Up">
+            </div>
+          </form>
+          <div class="footer">
+            <span class="font_bold"> Already a user? </span>
+            <a class="font_bold" href="#"> Login </a>
+          </div>
+        </section>
+        <siction class="citation">
+          <div class="citation__text font_bold"> “Creativity is intelligence having fun” </div>
+          <div class="citation__name font_bold"> - Albert Einstein </div>
+        </siction>
       </div>
-
-
     </div>
-
   </div>
 </body>
+
 </html>
