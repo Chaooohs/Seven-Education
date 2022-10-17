@@ -325,18 +325,27 @@ body {
 }
 /* #endregion */
 
-/* #region commet */
-.commet {
+/* #region comment */
+.comment {
   width: 90%;
   margin: 13.6rem auto 0;
   padding-bottom: 25.3rem;
 }
-.commet_view {
+.comment_title {
+  font-family: 'Roboto';
+font-weight: 700;
+font-size: 3.9rem;
+line-height: 4.6rem;
+text-transform: capitalize;
+color: var(--c-light);
+margin: 0;
+}
+.comment_view {
   display: flex;
   justify-content: space-evenly;
   margin-top: 9rem;
 }
-.commet_view_card {
+.comment_view_card {
   width: 30%;
   height: 45.4rem;
   background: var(--c-light);
@@ -344,38 +353,38 @@ body {
   box-sizing: border-box;
   padding: 5rem 5.2rem 4.8rem 3.2rem;
 }
-.commet_view_card_star {
+.comment_view_card_star {
   display: flex;
   justify-content: space-around;
   padding-right: 54%;
 }
-.commet_view_card_star > img {
+.comment_view_card_star > img {
   width: 1.4rem;
 }
-.commet_view_card_text {
+.comment_view_card_text {
   height: 20.8rem;
   overflow: auto;
   margin-top: 2.1rem;
   margin-bottom: 3.6rem;
 }
-.commet_view_card_customer {
+.comment_view_card_customer {
   display: flex;
   align-items: center;
 }
-.commet_view_card_customer_logo {
+.comment_view_card_customer_logo {
   width: 30%;
 }
-.commet_view_card_customer_init {
+.comment_view_card_customer_init {
   margin-left: 2.4rem;
 }
-.commet_view_card_customer_init_name {
+.comment_view_card_customer_init_name {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 2rem;
   line-height: 3.4rem;
   color: var(--c-black);
 }
-.commet_view_card_customer_init_prof {
+.comment_view_card_customer_init_prof {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 1.6rem;
