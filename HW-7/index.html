@@ -29,19 +29,19 @@
           <form class="data__form" autocomplete="off">
             <div class="data-form__cell">
               <label class="font__label" for="name"> Full name </label>
-              <input class="data-form__cell-input font__input" type="text" placeholder="Ade Tiger" id="name">
+              <input class="data-form__cell-input font__input" type="text" placeholder="Ade Tiger" id="name" required>
             </div>
             <div class="data-form__cell">
               <label class="font__label" for="email"> Email address </label>
-              <input class="data-form__cell-input font__input" type="text" placeholder="yourname@email.com" id="email">
+              <input class="data-form__cell-input font__input" type="email" placeholder="yourname@email.com" id="email" required>
             </div>
             <div class="data-form__cell">
               <label class="font__label" for="Phone"> Phone number </label>
-              <input class="data-form__cell-input font__input" type="text" placeholder="+38" id="phone">
+              <input class="data-form__cell-input font__input" type="tel" placeholder="+38" id="phone"required>
             </div>
             <div class="data-form__cell">
               <label class="font__label" for="pass"> Create password </label>
-              <input class="data-form__cell-input font__input" type="password" placeholder="" id="pass">
+              <input class="data-form__cell-input font__input" type="password" placeholder="" id="pass" required>
               <span class="data-form__cell-passinstruct">
                  Password must contain a minimum of 8 characters </span>
               <span class="data-form__cell-passinstruct">
@@ -49,7 +49,33 @@
             </div>
             <div class="data-form__cell">
               <label class="font__label" for="location"> Location (Optional) </label>
-              <select  class="data-form__cell-input font__input" type="text" placeholder="Select Location" id="location">
+              <select  class="data-form__cell-input font__input" type="text" placeholder="Select Location" id="location" required>
+                <option></option>
+                <option value=" Cherkasy Oblast "> Cherkasy Oblast </option>
+                <option value=" Chernihiv Oblast "> Chernihiv Oblast </option>
+                <option value=" Dnipropetrovsk Oblast "> Dnipropetrovsk Oblast </option>
+                <option value=" Donetsk Oblast "> Donetsk Oblast </option>
+                <option value=" Ivano-Frankivsk Oblast "> Ivano-Frankivsk Oblast </option>
+                <option value=" Kharkiv Oblast "> Kharkiv Oblast </option>
+                <option value=" Kherson Oblast "> Kherson Oblast </option>
+                <option value=" Khmelnytskyi Oblast "> Khmelnytskyi Oblast </option>
+                <option value=" Kyiv Oblast "> Kyiv Oblast </option>
+                <option value=" Kirovohrad Oblast "> Kirovohrad Oblast </option>
+                <option value=" Luhansk Oblast "> Luhansk Oblast </option>
+                <option value=" Lviv Oblast "> Lviv Oblast </option>
+                <option value=" Mykolaiv Oblast "> Mykolaiv Oblast </option>
+                <option value=" Odesa Oblast "> Odesa Oblast </option>
+                <option value=" Poltava Oblast "> Poltava Oblast </option>
+                <option value=" Rivne Oblast "> Rivne Oblast </option>
+                <option value=" Sumy Oblast "> Sumy Oblast </option>
+                <option value=" Ternopil Oblast "> Ternopil Oblast </option>
+                <option value=" Vinnytsia Oblast "> Vinnytsia Oblast </option>
+                <option value=" Volyn Oblast "> Volyn Oblast </option>
+                <option value=" Zakarpattia Oblast "> Zakarpattia Oblast </option>
+                <option value=" Zaporizhzhia Oblast ">  Zaporizhzhia Oblast </option>
+                <option value=" Zhytomyr Oblast "> Zhytomyr Oblast </option>
+                <option value=" Crimea Autonomous republic "class="data-form__cell-input-optdisabl"> Crimea Autonomous republic </option>
+              </select>
             </div>
             <div class="data-form__cell">
               <input class="data-form__cell-submit font_bold" type="submit" value="Sign Up">
