@@ -26,7 +26,7 @@
       <div class="main">
         <section class="data">
           <span class="data__title"> Let’s get you started </span>
-          <form class="data__form">
+          <form class="data__form" autocomplete="off">
             <div class="data-form__cell">
               <label class="font__label" for="name"> Full name </label>
               <input class="data-form__cell-input font__input" type="text" placeholder="Ade Tiger" id="name">
@@ -41,11 +41,15 @@
             </div>
             <div class="data-form__cell">
               <label class="font__label" for="pass"> Create password </label>
-              <input class="data-form__cell-input font__input" type="password" id="pass">
+              <input class="data-form__cell-input font__input" type="password" placeholder="" id="pass">
+              <span class="data-form__cell-passinstruct">
+                 Password must contain a minimum of 8 characters </span>
+              <span class="data-form__cell-passinstruct">
+                 Password must contain at least one symbol e.g. @, !</span>
             </div>
             <div class="data-form__cell">
               <label class="font__label" for="location"> Location (Optional) </label>
-              <input class="data-form__cell-input font__input" type="text" placeholder="Select Location" id="location">
+              <select  class="data-form__cell-input font__input" type="text" placeholder="Select Location" id="location">
             </div>
             <div class="data-form__cell">
               <input class="data-form__cell-submit font_bold" type="submit" value="Sign Up">
@@ -56,10 +60,10 @@
             <a class="font_bold" href="#"> Login </a>
           </div>
         </section>
-        <siction class="citation">
+        <section class="citation">
           <div class="citation__text font_bold"> “Creativity is intelligence having fun” </div>
           <div class="citation__name font_bold"> - Albert Einstein </div>
-        </siction>
+        </section>
       </div>
     </div>
   </div>

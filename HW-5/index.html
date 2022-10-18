@@ -10,193 +10,173 @@
 </head>
 
 <body>
-  <header class="header">
-    <div>
-      <img src="./img/logo.svg" alt="">
+  <div id="up">
+    <header class="header">
+      <div>
+        <img src="./img/logo.svg" alt="">
+      </div>
+      <div class="nav">
+        <ul class="nav-ul">
+          <li><a class="nav-li" href="#">Головна</a></li>
+          <li><a class="nav-li" href="#">Про нас</a></li>
+          <li><a class="nav-li" href="#">Забронювати</a></li>
+          <li><a class="nav-li" href="#">Контакты</a></li>
+          <li id="nav-li-five"><a class="nav-li" href="#">Особистий <br> Кабiнет</a></li>
+        </ul>
+      </div>
+      <div class="gloab">
+        <img src="./img/globe.svg" alt="img">
+        <span class="lang"> UA </span>
+      </div>
+    </header>
+    
+    <div class="main">
+      <section class="reserve">
+        <h2 class="reserve-title font-italic">Забронювати будиночок</h2>
+        <div class="choise">
+          <div class="choise-menu">
+            <span class="choise-menu-text">Оберіть місцерозташування</span>
+            <img src="./img/arrow.svg" alt="icon">
+          </div>
+          <div class="card">
+            <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
+            <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
+            <div class="card-img" >
+              <img src="./img/бакота.png" alt="img">
+            </div>
+            <div class="card-place">
+              <span class="font_italic_bold"> Незвідана Бакота </span>
+              <hr>
+              <div class="card-place-info">
+                <span class=" font_card"> У Хмельницькій області розташований загублений край -
+                  Бакота. Мальовничий каньйон з даhhvvvвньою історією захоплює
+                  своїми просторами та незвичною атмосферою. Бджільництво,
+                  свіжий мед із польових трав, дотик до природи. </span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
+            <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
+            <div class="card-img">
+              <img src="./img/перлина карпат.png" alt="img">
+            </div>
+            <div class="card-place">
+              <span class="font_italic_bold"> Перлини Карпат </span>
+              <hr>
+              <div class="card-place-info">
+                <span class=" font_card"> Полонини Карпат, у селі Орів посеред гір розташувався затишний куточок для
+                  незабутніх вражень. Справжні українські гори, власноручне сироваріння на полонині, водоспади та вікові
+                  дерева чекають на Вас. </span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
+            <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
+            <div class="card-img">
+              <img src="./img/автентична київщина.png" alt="img">
+            </div>
+            <div class="card-place">
+              <span class="font_italic_bold"> Автентична Київщина </span>
+              <hr>
+              <div class="card-place-info">
+                <span class=" font_card"> Неподалік центра Києва розташувалось автентичне українське село на території
+                  однойменного села Пирогово. Дерев’яні млини, запашний хліб, приготовлений своїми руками, українські
+                  пісні та багато іншого чекає на вас уже зараз. </span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
+            <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
+            <div class="card-img">
+              <img src="./img/нетипова одещина.png" alt="img">
+            </div>
+            <div class="card-place">
+              <span class="font_italic_bold"> Нетипова Одещина </span>
+              <hr>
+              <div class="card-place-info">
+                <span class=" font_card"> В Одеській області знаходиться мальовниче містечко Вилкове.
+                  Його ще називають «українською Венецією». Вилкове - це містечко
+                  на воді, весь в каналах. Розташоване в місці, де зустрічаються річка
+                  Дунай і Чорне море. Люди пересуваються переважно човнами.
+                  Нетипове українське село не залишить Вас без вражень. </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="acc">
+        <h2 class="acc-title font-italic"> Особистий кабінет </h2>
+        <div class="acc-body">
+          <div class="acc-card">
+            <div class="acc-avatar">
+              <img src="./img/avatar.svg" alt="img">
+              <a href="#"><button class="acc-btn-change font-btn"> Змінити аватар</button></a>
+              <a href="#"><button class="acc-btn-setting font-btn"> Налаштування </button></a>
+            </div>
+            <table class="acc-info">
+              <tr>
+                <td class="font_italic_bold">Нищук Дмитро Миколайович</td>
+              </tr>
+              <tr>
+                <td class="font_italic_bold">Стать: <span class="font_italic_acc">чоловіча</span> </td>
+              </tr>
+              <tr>
+                <td class="font_italic_bold">Дата народження: <span class="font_italic_acc">10. 02. 1998</span></td>
+              </tr>
+              <tr>
+                <td class="font_italic_bold">Мобільний телефон: <span class="font_italic_acc">+38(097)346-72-50</span></td>
+              </tr>
+              <tr>
+                <td class="font_italic_bold">Ел. пошта: <span class="font_italic_acc">petrov@gmail.com</span></td>
+              </tr>
+            </table>
+          </div>
+          <a href="#"><button class="acc-exit-btn font-btn"> Вийти </button></a>
+        </div>
+    
+      </section>
+      <section class="contanct">
+        <h2 class="contact-title font-italic"> Контакти </h2>
+        <div class="contant-body">
+          <div class="contact-data">
+            <table>
+              <tr>
+                <td class="contact-data-above"> Телефон </td>
+              </tr>
+              <tr>
+                <td> <a class="contact-data-below" href="tel:+380970098983">+38(097)009-89-83</a> </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="contact-data-above"> Ел. пошта </td>
+              </tr>
+              <tr>
+                <td> <a class="contact-data-below" href="mailto:hello@gmail.com">hello@gmail.com</a> </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="contact-data-above"> Адреса офісу </td>
+              </tr>
+              <tr>
+                <td> <a class="contact-data-below" href="https://goo.gl/maps/CybiFuzcMG7oidtP7">м. Київ, вул. Малевича, буд. 4</a> </td>
+              </tr>
+            </table>
+          </div>
+          <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227094.24157414905!2d-109.4157539625779!3d-27.208236802843597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9947fa532c310a17%3A0x95aabbca2c061a0c!2z0JDQvdCz0LAt0KDQvtCwLCDQntGB0YLRgNC-0LIg0J_QsNGB0YXQuCwg0JLQsNC70YzQv9Cw0YDQsNC40YHQviwg0KfQuNC70Lg!5e0!3m2!1sru!2sua!4v1665695817411!5m2!1sru!2sua" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <span class="footer"> @ 2022 &nbsp Супер відпочинок для кожного </span>
+        </div>
+      </footer>
+      <a class="up_buttom" href="#up"><img src="./img/upButtomArrow.svg" alt=""></a>
     </div>
-    <div class="nav">
-      <ul class="nav-ul">
-        <li><a class="nav-li" href="#">Головна</a></li>
-        <li><a class="nav-li" href="#">Про нас</a></li>
-        <li><a class="nav-li" href="#">Забронювати</a></li>
-        <li><a class="nav-li" href="#">Контакты</a></li>
-        <li id="nav-li-five"><a class="nav-li" href="#">Особистий <br> Кабiнет</a></li>
-      </ul>
-    </div>
-    <div class="gloab">
-      <img src="./img/globe.svg" alt="img">
-      <span class="lang"> UA </span>
-    </div>
-  </header>
-  
-  <div class="main">
-
-    <section class="reserve">
-      <h2 class="reserve-title font-italic">Забронювати будиночок</h2>
-
-      <div class="choise">
-        <div class="choise-menu">
-          <span class="choise-menu-text">Оберіть місцерозташування</span>
-          <img src="./img/arrow.svg" alt="icon">
-        </div>
-
-        <div class="card">
-
-          <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
-          <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
-
-          <div class="card-img" >
-            <img src="./img/бакота.png" alt="img">
-          </div>
-
-          <div class="card-place">
-            <span class="font_italic_bold"> Незвідана Бакота </span>
-            <hr>
-            <div class="card-place-info">
-              <span class=" font_card"> У Хмельницькій області розташований загублений край -
-                Бакота. Мальовничий каньйон з даhhvvvвньою історією захоплює
-                своїми просторами та незвичною атмосферою. Бджільництво,
-                свіжий мед із польових трав, дотик до природи. </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-
-          <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
-          <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
-
-          <div class="card-img">
-            <img src="./img/перлина карпат.png" alt="img">
-          </div>
-          <div class="card-place">
-            <span class="font_italic_bold"> Перлини Карпат </span>
-            <hr>
-            <div class="card-place-info">
-              <span class=" font_card"> Полонини Карпат, у селі Орів посеред гір розташувався затишний куточок для
-                незабутніх вражень. Справжні українські гори, власноручне сироваріння на полонині, водоспади та вікові
-                дерева чекають на Вас. </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-
-          <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
-          <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
-
-          <div class="card-img">
-            <img src="./img/автентична київщина.png" alt="img">
-          </div>
-          <div class="card-place">
-            <span class="font_italic_bold"> Автентична Київщина </span>
-            <hr>
-            <div class="card-place-info">
-              <span class=" font_card"> Неподалік центра Києва розташувалось автентичне українське село на території
-                однойменного села Пирогово. Дерев’яні млини, запашний хліб, приготовлений своїми руками, українські
-                пісні та багато іншого чекає на вас уже зараз. </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-
-          <iconify-icon icon="entypo:star" class="card-star"></iconify-icon>
-          <a href="#"><button class="card-btn font-btn"> Детальніше </button></a>
-
-          <div class="card-img">
-            <img src="./img/нетипова одещина.png" alt="img">
-          </div>
-          <div class="card-place">
-            <span class="font_italic_bold"> Нетипова Одещина </span>
-            <hr>
-            <div class="card-place-info">
-              <span class=" font_card"> В Одеській області знаходиться мальовниче містечко Вилкове.
-                Його ще називають «українською Венецією». Вилкове - це містечко
-                на воді, весь в каналах. Розташоване в місці, де зустрічаються річка
-                Дунай і Чорне море. Люди пересуваються переважно човнами.
-                Нетипове українське село не залишить Вас без вражень. </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="acc">
-      <h2 class="acc-title font-italic"> Особистий кабінет </h2>
-
-      <div class="acc-body">
-        <div class="acc-card">
-          <div class="acc-avatar">
-            <img src="./img/avatar.svg" alt="img">
-            <a href="#"><button class="acc-btn-change font-btn"> Змінити аватар</button></a>
-            <a href="#"><button class="acc-btn-setting font-btn"> Налаштування </button></a>
-          </div>
-          <table class="acc-info">
-            <tr>
-              <td class="font_italic_bold">Нищук Дмитро Миколайович</td>
-            </tr>
-            <tr>
-              <td class="font_italic_bold">Стать: <span class="font_italic_acc">чоловіча</span> </td>
-            </tr>
-            <tr>
-              <td class="font_italic_bold">Дата народження: <span class="font_italic_acc">10. 02. 1998</span></td>
-            </tr>
-            <tr>
-              <td class="font_italic_bold">Мобільний телефон: <span class="font_italic_acc">+38(097)346-72-50</span></td>
-            </tr>
-            <tr>
-              <td class="font_italic_bold">Ел. пошта: <span class="font_italic_acc">petrov@gmail.com</span></td>
-            </tr>
-          </table>
-        </div>
-        <a href="#"><button class="acc-exit-btn font-btn"> Вийти </button></a>
-      </div>
-
-      
-    </section>
-
-    <section class="contanct">
-      <h2 class="contact-title font-italic"> Контакти </h2>
-      <div class="contant-body">
-        <div class="contact-data">
-          <table>
-            <tr>
-              <td class="contact-data-above"> Телефон </td>
-            </tr>
-            <tr>
-              <td> <a class="contact-data-below" href="tel:+380970098983">+38(097)009-89-83</a> </td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td class="contact-data-above"> Ел. пошта </td>
-            </tr>
-            <tr>
-              <td> <a class="contact-data-below" href="mailto:hello@gmail.com">hello@gmail.com</a> </td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td class="contact-data-above"> Адреса офісу </td>
-            </tr>
-            <tr>
-              <td> <a class="contact-data-below" href="https://goo.gl/maps/CybiFuzcMG7oidtP7">м. Київ, вул. Малевича, буд. 4</a> </td>
-            </tr>
-          </table>
-        </div>
-        <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227094.24157414905!2d-109.4157539625779!3d-27.208236802843597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9947fa532c310a17%3A0x95aabbca2c061a0c!2z0JDQvdCz0LAt0KDQvtCwLCDQntGB0YLRgNC-0LIg0J_QsNGB0YXQuCwg0JLQsNC70YzQv9Cw0YDQsNC40YHQviwg0KfQuNC70Lg!5e0!3m2!1sru!2sua!4v1665695817411!5m2!1sru!2sua" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
-
-    <footer>
-      <div class="footer">
-        <span class="footer"> @ 2022 &nbsp Супер відпочинок для кожного </span>
-      </div>
-    </footer>
-
-    <a class="up_buttom" href="#"><img src="./img/upButtomArrow.svg" alt=""></a>  
-
   </div>
 
   <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
