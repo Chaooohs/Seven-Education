@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>HW-7-add</title>
+</head>
+
+<body>
+  <div class="frame">
+
+    <img class="image" src="./img/background.svg" alt="">
+
+    <div class="page">
+      <div class="entrance">
+        <span class="entrance__text font-main"> Allready a member? </span>
+        <img class="entrance__image" src="./img/account.svg" alt="">
+      </div>
+
+      <div class="notice">
+        <span class="notice__title"> Input your information </span>
+        <p class="notice__text font-main"> We need you to help us with some basic information for your account creation.
+          Here are our terms and conditins. Please read them carefully. We are GDRP compliiant </p>
+      </div>
+
+      <div class="dash"></div>
+
+      <form class="form" autocomplete="off">
+        <div class="form__cell">
+          <label class="font-main" for=""> First name </label>
+          <input class="font-main" type="text">
+        </div>
+        <div class="form__cell">
+          <label class="font-main" for=""> Last name </label>
+          <input class="font-main" type="text">
+        </div>
+        <div class="form__cell">
+          <label class="font-main" for=""> Company </label>
+          <input class="font-main" type="text">
+        </div>
+        <div class="form__cell">
+          <label class="font-main" for=""> Work email </label>
+          <input class="font-main" type="email">
+        </div>
+        <div class="form__cell">
+          <label class="font-main" for=""> Number of employees </label>
+          <input class="font-main" type="text">
+        </div>
+        <div class="form__cell">
+          <label class="font-main" for=""> Phone number </label>
+          <input class="font-main" type="tel">
+        </div>
+      </form>
+
+      <div class="dash"></div>
+
+      <form class="form" autocomplete="off">
+        <div class="form__cell">
+          <label class="font-main" for=""> Password </label>
+          <input class="font-main" type="password">
+        </div>
+        <div class="form__cell">
+          <label class="font-main" for=""> Confirm password </label>
+          <input class="font-main" type="password">
+        </div>
+      </form>
+
+      <div class="dash"></div>
+
+      <form class="form__sub">
+        <div class="form-sub__radio">
+          <input class="form-sub__radio-input" type="radio" id="el2">
+          <label class="form-sub__radio-label" for="el2">
+            <span class="form-sub__radio-mark"></span>
+            <span class="font-main">I agree with terms and conditins.</span>
+          </label>
+        </div>
+        <div>
+          <input class="form-sub__btn" class="font-main" type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
