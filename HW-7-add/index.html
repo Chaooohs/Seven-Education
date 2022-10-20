@@ -16,42 +16,87 @@
 
     <div class="page">
       <div class="entrance">
-        <span class="entrance__text font-main"> Allready a member? </span>
-        <img class="entrance__image" src="./img/account.svg" alt="">
+        <a href="#"><span class="entrance__text font_main"> Allready a member? </span></a>
+        <a href="#"><img class="entrance__image" src="./img/account.svg" alt=""></a>
       </div>
 
       <div class="notice">
         <span class="notice__title"> Input your information </span>
-        <p class="notice__text font-main"> We need you to help us with some basic information for your account creation.
-          Here are our terms and conditins. Please read them carefully. We are GDRP compliiant </p>
+        <p class="notice__text font_main"> We need you to help us with some basic information for your account creation.
+          Here are our <a href="#">terms and conditins</a>. Please read them carefully. We are GDRP compliiant </p>
       </div>
 
-      <div class="dash"></div>
+      <hr class="dash">
 
       <form class="form" autocomplete="off">
         <div class="form__cell">
-          <label class="font-main" for=""> First name </label>
-          <input class="font-main" type="text">
+          <label class="font_main" for=""> 
+            First name 
+            <a href="#"><img src="./img/sign.svg" alt="img"></a>
+          </label>
+          <input class="font_opacity" type="text" placeholder="John">
         </div>
         <div class="form__cell">
-          <label class="font-main" for=""> Last name </label>
-          <input class="font-main" type="text">
+          <label class="font_main" for=""> 
+            Last name 
+            <a href=""><img src="./img/sign.svg" alt="img"></a>
+          </label>
+          <input class="font_opacity" type="text" placeholder="Smit">
         </div>
         <div class="form__cell">
-          <label class="font-main" for=""> Company </label>
-          <input class="font-main" type="text">
+          <label class="font_main" for=""> 
+            Company 
+            <a href="#"><img src="./img/sign.svg" alt="img"> </a>
+          </label>
+          <input class="font_opacity" type="text" placeholder="John Smith">
         </div>
         <div class="form__cell">
-          <label class="font-main" for=""> Work email </label>
-          <input class="font-main" type="email">
+          <label class="font_main" for=""> 
+            Work email 
+            <a href="#"><img src="./img/sign.svg" alt="img"> </a>
+          </label>
+          <input class="font_opacity" type="email" placeholder="John Smith">
         </div>
-        <div class="form__cell">
-          <label class="font-main" for=""> Number of employees </label>
-          <input class="font-main" type="text">
+
+        <div class="form__radio">
+          <span class="font_main">
+            I agree with terms and conditins. 
+            <a href="#"><img src="./img/sign.svg" alt="img"> </a>
+          </span>
+          <div class="form__cell_radio">
+            <div class="form-cell__radio">
+              <input class="form-cell__radio-input" type="radio" id="el1" name="num">
+              <label class="form-cell__radio-label" for="el1">
+                <span class="form-cell__radio-mark font_opacity"> 0 &#706 20 </span>
+              </label>
+            </div>
+            <div class="form-cell__radio">
+              <input class="form-cell__radio-input" type="radio" id="el2" name="num">
+              <label class="form-cell__radio-label" for="el2">
+                <span class="form-cell__radio-mark font_opacity"> 20 &#706 50 </span>
+              </label>
+            </div>
+            <div class="form-cell__radio">
+              <input class="form-cell__radio-input" type="radio" id="el3" name="num">
+              <label class="form-cell__radio-label" for="el3">
+                <span class="form-cell__radio-mark font_opacity"> 50 &#706 100 </span>
+              </label>
+            </div>
+            <div class="form-cell__radio">
+              <input class="form-cell__radio-input" type="radio" id="el4" name="num">
+              <label class="form-cell__radio-label" for="el4">
+                <span class="form-cell__radio-mark font_opacity"> 100 &#706 ... </span>
+              </label>
+            </div>
+          </div>
         </div>
+
         <div class="form__cell">
-          <label class="font-main" for=""> Phone number </label>
-          <input class="font-main" type="tel">
+          <label class="font_main" for=""> 
+            Phone number 
+            <a href=""><img src="./img/sign.svg" alt="img"></a>
+          </label>
+          <input class="font_opacity" type="tel" placeholder="+380">
         </div>
       </form>
 
@@ -59,32 +104,39 @@
 
       <form class="form" autocomplete="off">
         <div class="form__cell">
-          <label class="font-main" for=""> Password </label>
-          <input class="font-main" type="password">
+          <label class="font_main" for=""> 
+            Password 
+            <a href="#"><img src="./img/sign.svg" alt="img"> </a>
+          </label>
+          <input type="password">
         </div>
         <div class="form__cell">
-          <label class="font-main" for=""> Confirm password </label>
-          <input class="font-main" type="password">
+          <label class="font_main" for=""> 
+            Confirm password 
+            <a href="#"><img src="./img/sign.svg" alt="img"></a>
+           </label>
+          <input type="password">
         </div>
       </form>
 
       <div class="dash"></div>
 
-      <form class="form__sub">
+      <form class="form__sub" autocomplete="off">
         <div class="form-sub__radio">
-          <input class="form-sub__radio-input" type="radio" id="el2">
-          <label class="form-sub__radio-label" for="el2">
+          <input class="form-sub__radio-input" type="radio" id="el5">
+          <label class="form-sub__radio-label" for="el5">
             <span class="form-sub__radio-mark"></span>
-            <span class="font-main">I agree with terms and conditins.</span>
+            <span class="font_main">I agree with terms and conditins .</span>
           </label>
         </div>
         <div>
-          <input class="form-sub__btn" class="font-main" type="submit" value="Register">
+          <input class="form-sub__btn" class="font_main" type="submit" value="Register">
         </div>
       </form>
     </div>
 
   </div>
+
 </body>
 
 </html>
