@@ -28,7 +28,6 @@ a {
 label {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .font_main {
   font-family: "Roboto";
@@ -46,6 +45,9 @@ label {
   color: var(--c-black);
   opacity: 0.5;
 }
+
+
+
 
 /* --------------------- */
 
@@ -101,18 +103,13 @@ label {
   margin-top: 1.6rem;
   overflow: hidden;
 }
-.dash {
-  opacity: 0.2;
-  border: 0.1rem dashed var(--c-black);
-  margin-top: 4.8rem;
-}
 .form {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 1px dashed var(--c-gray);
-  padding-bottom: 3.8rem;
+  padding-bottom: 4.2rem;
   margin-top: 4.2rem;
 }
 .form__cell {
