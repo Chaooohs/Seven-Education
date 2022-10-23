@@ -25,6 +25,9 @@ a {
   text-decoration: none;
   color: var(--c-blue);
 }
+a > img {
+  padding-right: 1.6rem;
+}
 label {
   display: flex;
   justify-content: space-between;
