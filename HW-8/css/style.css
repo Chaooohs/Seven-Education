@@ -6,14 +6,16 @@
   --gray: #e5e5e5;
   max-width: 192rem;
   font-size: 10px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 body {
   margin: 0;
+  background: gray;
 }
-.content {
-  margin: 0 auto;
+.container {
+  background: var(--light);
 }
+
 .font-large {
   font-family: "Rosario";
   font-weight: 700;
@@ -27,15 +29,12 @@ body {
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 5.8rem;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: var(--black);
 }
 
 /* #region header */
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -67,7 +66,7 @@ body {
 /* #region section one */
 .section__one {
   width: 100%;
-  height: 108rem;
+  height: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,39 +90,51 @@ body {
 
 /* #region section two */
 .section__two {
-  width: 50%;
-  width: 100%;
-  height: 108rem;
   display: flex;
-  align-items: center;
 }
 .section-two__rounds {
   width: 50%;
-  height: 86%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
 }
-.section-two__rounds > div {
-  height: 41.8rem;
+.section-two__photo {
+  width: 50%;
+}
+.section-two__photo > img {
+  width: 100%;
+  height: 100%;
+}
+/* .section-two__round {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50%;
+}
+.section-two__round > div {
+  max-width: 50%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-.section-two__cotton {
-  width: 50%;
+.section-two__round:nth-child(2) {
+  margin-top: 5.4rem;
 }
+.section-two__rounds > div, p {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+}
+.section-two__rounds > div, img {
+  width: 100%;} */
+
 /* #endregion */
 
 /* #region section three */
 .section__three {
   width: 100%;
-  height: 108rem;
+  height: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 .section-three_fotos {
   height: 66rem;
@@ -136,56 +147,62 @@ body {
 /* #region section four */
 .section__four {
   background-color: burlywood;
-  height: 108rem;
+  height: 100vw;
 }
 .section-four__adress {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
 }
 .section-four__message {
-  width: 44%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 .section-four__title {
+  width: 86%;
   text-align: center;
   font-size: 6.4rem;
   line-height: 7.8rem;
+  margin: 5rem 0px 1.6rem 0;
+}
+table {
+  border: 3rem solid #e5e5e5;
+  border-collapse: collapse;
+  margin: 100px auto;
+}
+tr,
+td {
+  border: 3rem solid #e5e5e5;
+}
+.first {
+  width: 37.7rem;
+  height: 8rem;
+}
+input, textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+textarea {
+  width: 84rem;
+  height: 22.6rem;
+  border: none;
+  background: transparent;
+  resize: none;
+}
+input, textarea {
+  font-family: "Rosario";
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 4.4rem;
 }
 .section-four__map {
   border: 0;
   width: 30%;
   height: 50.7rem;
 }
-.section-four__form {
-  /* width: 100%; */
-}
-.section-four__form > div {
-  display: flex;
-  align-items: center;
-}
-.section-four__form-name-input-name {
-  width: 30%;
-  height: 8rem;
-  border: 3.7rem solid var(--gray);
-  background: transparent;
-  font-family: "Rosario";
-  font-weight: 700;
-  font-size: 3.6rem;
-  line-height: 4.4rem;
-  color: rgba(0, 0, 0, 0.5);
-  outline: none;
-}
-.section-four__form-name-input-email {
-  width: 50%;
-  height: 8rem;
-  border: 3.7rem solid var(--gray);
-  background: transparent;
-  font-family: "Rosario";
-  font-weight: 700;
-  font-size: 3.6rem;
-  line-height: 4.4rem;
-  color: rgba(0, 0, 0, 0.5);
-  outline: none;
-}
+
