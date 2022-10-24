@@ -172,22 +172,22 @@ img {
 .section-two__couple:nth-child(1) {
   left: 3.6%;
   top: 14.3%;
-  animation: couple-one 5s linear;
+  animation: couple-one 10s linear infinite alternate;
 }
 .section-two__couple:nth-child(2) {
   left: 28%;
   top: 14.3%;
-  animation: couple-two 5s linear;
+  animation: couple-two 10s linear infinite alternate;
 }
 .section-two__couple:nth-child(3) {
   left: 28%;
   top: 57.9%;
-  animation: couple-three 5s linear;
+  animation: couple-three 10s linear infinite alternate;
 }
 .section-two__couple:nth-child(4) {
   left: 3.6%;
   top: 57.9%;
-  animation: couple-four 5s linear;
+  animation: couple-four 10s linear infinite alternate;
 }
 .section-two__couple > div,
 p {
@@ -213,7 +213,7 @@ p {
     top: 57.9%;
   }
   100% {
-    left:3.6%;
+    left: 3.6%;
     top: 14.3%;
   }
 }
@@ -231,12 +231,12 @@ p {
     top: 57.9%;
   }
   75% {
-    left:3.6%;
+    left: 3.6%;
     top: 14.3%;
   }
   100% {
     left: 28%;
-    top: 14.3
+    top: 14.3;
   }
 }
 @keyframes couple-three {
@@ -249,7 +249,7 @@ p {
     top: 57.9%;
   }
   50% {
-    left:3.6%;
+    left: 3.6%;
     top: 14.3%;
   }
   75% {
@@ -267,7 +267,7 @@ p {
     top: 57.9%;
   }
   25% {
-    left:3.6%;
+    left: 3.6%;
     top: 14.3%;
   }
   50% {
