@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,700;1,600;1,700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Volkhov&display=swap");
+
 :root {
   --black: #000;
   --light: #fffcfc;
@@ -34,6 +36,13 @@ img {
   font-size: 4.8rem;
   line-height: 5.8rem;
   color: var(--black);
+}
+.font-form__name {
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-size: 0;
+  line-height: 6.2rem;
+  color: #fffafa;
 }
 
 /* #region header */
@@ -285,20 +294,84 @@ p {
 }
 /* #endregion */
 
-/* #region section three */
-.section__three {
+/* #region section team */
+.team {
   width: 100%;
-  height: 100vw;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
   text-align: center;
+  box-sizing: border-box;
+  padding-top: 9.1%;
+  background-color: darkkhaki;
 }
-.section-three_fotos {
-  height: 66rem;
+.team__form {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  margin-top: 4.7%;
 }
+input {
+  display: none;
+}
+label {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+}
+input:checked + label > p {
+  width: 392px;
+  height: 154.57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.8rem;
+  background-color: rgba(163, 83, 10, 0.7);
+  border-radius: 0 0 40px 40px;
+}
+
+.team-form__one {
+  width: 20%;
+  height: 677px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Rectangle8.png") 0 0 no-repeat;
+  border-radius: 40px 40px;
+}
+input:checked + label.team-form__one {
+  background: url("../img/Rectangle8.png") 0 0 no-repeat;
+}
+
+.team-form__two {
+  width: 20%;
+  height: 677px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Rectangle9.png") 0 0 no-repeat;
+  border-radius: 40px 40px;
+}
+input:checked + label.team-form__two {
+  background: url("../img/Rectangle9.png") 0 0 no-repeat;
+}
+
+.team-form__three {
+  width: 20%;
+  height: 677px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Rectangle10.png") 0 0 no-repeat;
+  border-radius: 40px 40px;
+}
+input:checked + label.team-form__three {
+  background: url("../img/Rectangle10.png") 0 0 no-repeat;
+}
+
+.team-form__four {
+  width: 20%;
+  height: 677px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Rectangle11.png") 0 0 no-repeat;
+  border-radius: 40px 40px;
+}
+input:checked + label.team-form__four {
+  background: url("../img/Rectangle11.png") 0 0 no-repeat;
+}
+
 /* #endregion */
 
 /* #region section four */
