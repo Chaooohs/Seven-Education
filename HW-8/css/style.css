@@ -22,6 +22,7 @@ img {
   background: var(--light);
 }
 
+/* #region common */
 .font-large {
   font-family: "Rosario";
   font-weight: 700;
@@ -44,6 +45,7 @@ img {
   line-height: 6.2rem;
   color: #fffafa;
 }
+/* #endregion */
 
 /* #region header */
 .header {
@@ -77,8 +79,8 @@ img {
 }
 /* #endregion */
 
-/* #region section one */
-.section__one {
+/* #region section gallery */
+.gallery {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -86,7 +88,7 @@ img {
   box-sizing: border-box;
 }
 
-.section-one__blok-one {
+.gallery__blok-one {
   position: absolute;
   width: 19%;
   left: 2.2%;
@@ -104,7 +106,7 @@ img {
   }
 }
 
-.section-one__blok-two {
+.gallery__blok-two {
   position: absolute;
   width: 24%;
   left: 25.2%;
@@ -122,7 +124,7 @@ img {
   }
 }
 
-.section-one__blok-three {
+.gallery__blok-three {
   position: absolute;
   width: 24%;
   right: 25.2%;
@@ -140,12 +142,12 @@ img {
   }
 }
 
-.section-one__blok-two > img:nth-child(2),
-.section-one__blok-three > img:nth-child(2) {
+.gallery__blok-two > img:nth-child(2),
+.gallery__blok-three > img:nth-child(2) {
   margin-top: 8%;
 }
 
-.section-one__blok-four {
+.gallery__blok-four {
   position: absolute;
   width: 19%;
   right: 2.4%;
@@ -164,41 +166,41 @@ img {
 }
 /* #endregion */
 
-/* #region section two */
-.section__two {
+/* #region section services */
+.services {
   position: relative;
   width: 100%;
   height: 100vh;
   background: url("../img/pexels-cottonbro.png") right 0/50% no-repeat;
 }
-.section-two__couple {
+.services__couple {
   position: absolute;
   max-width: 18.7%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.section-two__couple:nth-child(1) {
+.services__couple:nth-child(1) {
   left: 3.6%;
   top: 14.3%;
   animation: couple-one 10s linear infinite alternate;
 }
-.section-two__couple:nth-child(2) {
+.services__couple:nth-child(2) {
   left: 28%;
   top: 14.3%;
   animation: couple-two 10s linear infinite alternate;
 }
-.section-two__couple:nth-child(3) {
+.services__couple:nth-child(3) {
   left: 28%;
   top: 57.9%;
   animation: couple-three 10s linear infinite alternate;
 }
-.section-two__couple:nth-child(4) {
+.services__couple:nth-child(4) {
   left: 3.6%;
   top: 57.9%;
   animation: couple-four 10s linear infinite alternate;
 }
-.section-two__couple > div,
+.services__couple > div,
 p {
   margin-top: 1.2rem;
   margin-bottom: 0;
@@ -312,66 +314,37 @@ input {
   display: none;
 }
 label {
+  position: relative;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   cursor: pointer;
 }
+label:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4rem 4rem;
+}
+input:checked + label:after {
+  display: none;
+}
 input:checked + label > p {
-  width: 392px;
-  height: 154.57px;
+  position: absolute;
+  width: 100%;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 4.8rem;
   background-color: rgba(163, 83, 10, 0.7);
-  border-radius: 0 0 40px 40px;
+  border-radius: 0 0 4rem 4rem;
 }
-
-.team-form__one {
-  width: 20%;
-  height: 677px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/Rectangle8.png") 0 0 no-repeat;
-  border-radius: 40px 40px;
-}
-input:checked + label.team-form__one {
-  background: url("../img/Rectangle8.png") 0 0 no-repeat;
-}
-
-.team-form__two {
-  width: 20%;
-  height: 677px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/Rectangle9.png") 0 0 no-repeat;
-  border-radius: 40px 40px;
-}
-input:checked + label.team-form__two {
-  background: url("../img/Rectangle9.png") 0 0 no-repeat;
-}
-
-.team-form__three {
-  width: 20%;
-  height: 677px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/Rectangle10.png") 0 0 no-repeat;
-  border-radius: 40px 40px;
-}
-input:checked + label.team-form__three {
-  background: url("../img/Rectangle10.png") 0 0 no-repeat;
-}
-
-.team-form__four {
-  width: 20%;
-  height: 677px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/Rectangle11.png") 0 0 no-repeat;
-  border-radius: 40px 40px;
-}
-input:checked + label.team-form__four {
-  background: url("../img/Rectangle11.png") 0 0 no-repeat;
-}
-
 /* #endregion */
 
 /* #region section four */
@@ -437,3 +410,4 @@ textarea {
   width: 30%;
   height: 50.7rem;
 }
+/* #endregion */
