@@ -6,12 +6,11 @@
   --black: #000;
   --light: #fffcfc;
   --gray: #e5e5e5;
-  max-width: 192rem;
   font-size: 10px;
 }
 body {
   margin: 0;
-  background: gray;
+  /* background: gray; */
 }
 img {
   width: 100%;
@@ -33,7 +32,7 @@ img {
   font-family: "Rosario";
   font-style: italic;
   font-weight: 700;
-  font-size: 4.8rem;
+  font-size: 3.8rem;
   line-height: 5.8rem;
   color: var(--black);
 }
@@ -106,8 +105,8 @@ img {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: burlywood;
   box-sizing: border-box;
+  /* background-color: burlywood; */
 }
 
 .gallery__blok-one {
@@ -119,14 +118,6 @@ img {
   animation-duration: 2s;
   animation-timing-function: linear;
 }
-@keyframes block-one {
-  0% {
-    left: -100vw;
-  }
-  100% {
-    left: 2.2%;
-  }
-}
 
 .gallery__blok-two {
   position: absolute;
@@ -137,14 +128,6 @@ img {
   animation-duration: 1s;
   animation-timing-function: linear;
 }
-@keyframes block-two {
-  0% {
-    left: -100vw;
-  }
-  100% {
-    left: 25.2%;
-  }
-}
 
 .gallery__blok-three {
   position: absolute;
@@ -154,14 +137,6 @@ img {
   animation-name: block-three;
   animation-duration: 1s;
   animation-timing-function: linear;
-}
-@keyframes block-three {
-  0% {
-    right: -100vw;
-  }
-  100% {
-    right: 25.2%;
-  }
 }
 
 .gallery__blok-two > img:nth-child(2),
@@ -178,49 +153,42 @@ img {
   animation-duration: 2s;
   animation-timing-function: linear;
 }
-@keyframes block-four {
-  0% {
-    right: -100vw;
-  }
-  100% {
-    right: 2.4%;
-  }
-}
+
 /* #endregion */
 
 /* #region section services */
 .services {
-  position: relative;
   width: 100%;
   height: 100vh;
-  background: url("../img/pexels-cottonbro.png") right 0/50% no-repeat;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.service__anim {
+  position: relative;
+  width: 50%;
 }
 .services__couple {
   position: absolute;
-  max-width: 18.7%;
+  max-width: 30.4%;
+  left: 12%;
+  top: 16%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: couple 8s linear infinite;
 }
 .services__couple:nth-child(1) {
-  left: 3.6%;
-  top: 14.3%;
-  animation: couple-one 10s linear infinite alternate;
+  animation-delay: 0s;
 }
 .services__couple:nth-child(2) {
-  left: 28%;
-  top: 14.3%;
-  animation: couple-two 10s linear infinite alternate;
+  animation-delay: 2s;
 }
 .services__couple:nth-child(3) {
-  left: 28%;
-  top: 57.9%;
-  animation: couple-three 10s linear infinite alternate;
+  animation-delay: 4s;
 }
 .services__couple:nth-child(4) {
-  left: 3.6%;
-  top: 57.9%;
-  animation: couple-four 10s linear infinite alternate;
+  animation-delay: 6s;
 }
 .services__couple > div,
 p {
@@ -228,94 +196,13 @@ p {
   margin-bottom: 0;
 }
 
-@keyframes couple-one {
-  0% {
-    left: 3.6%;
-    top: 14.3%;
-  }
-  25% {
-    left: 28%;
-    top: 14.3%;
-  }
-  50% {
-    left: 28%;
-    top: 57.9%;
-  }
-  75% {
-    left: 3.6%;
-    top: 57.9%;
-  }
-  100% {
-    left: 3.6%;
-    top: 14.3%;
-  }
+.service__back {
+  width: 50%;
 }
-@keyframes couple-two {
-  0% {
-    left: 28%;
-    top: 14.3%;
-  }
-  25% {
-    left: 28%;
-    top: 57.9%;
-  }
-  50% {
-    left: 3.6%;
-    top: 57.9%;
-  }
-  75% {
-    left: 3.6%;
-    top: 14.3%;
-  }
-  100% {
-    left: 28%;
-    top: 14.3;
-  }
+.service-back__foto {
+  height: 100%;
 }
-@keyframes couple-three {
-  0% {
-    left: 28%;
-    top: 57.9%;
-  }
-  25% {
-    left: 3.6%;
-    top: 57.9%;
-  }
-  50% {
-    left: 3.6%;
-    top: 14.3%;
-  }
-  75% {
-    left: 28%;
-    top: 14.3%;
-  }
-  100% {
-    left: 28%;
-    top: 57.9%;
-  }
-}
-@keyframes couple-four {
-  0% {
-    left: 3.6%;
-    top: 57.9%;
-  }
-  25% {
-    left: 3.6%;
-    top: 14.3%;
-  }
-  50% {
-    left: 28%;
-    top: 14.3%;
-  }
-  75% {
-    left: 28%;
-    top: 57.9%;
-  }
-  100% {
-    left: 3.6%;
-    top: 57.9%;
-  }
-}
+
 /* #endregion */
 
 /* #region section team */
@@ -325,7 +212,7 @@ p {
   text-align: center;
   box-sizing: border-box;
   padding-top: 9.1%;
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 .team__form {
   display: flex;
@@ -371,15 +258,15 @@ input:checked + label > p {
 
 /* #region section contact */
 .contact {
-  background-color: burlywood;
   height: 100vh;
   box-sizing: border-box;
+  /* background-color: burlywood; */
 }
 .contact__main {
   height: 50%;
   display: flex;
   justify-content: center;
-  padding-top: 9.3%;
+  padding: 9.3% 2% 0 2%;
 }
 .contant__table {
   display: flex;
@@ -459,6 +346,64 @@ td {
   height: 26px;
   color: var(--black);
   margin-right: 6%;
+}
+
+/* #endregion */
+
+/* #region animation */
+
+@keyframes block-one {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes block-two {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes block-three {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes block-four {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes couple {
+  0% {
+    transform: translate(0%);
+  }
+  25% {
+    transform: translate(150%);
+  }
+  50% {
+    transform: translate(150%, 120%);
+  }
+  75% {
+    transform: translate(0, 120%);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 /* #endregion */
