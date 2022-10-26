@@ -31,7 +31,7 @@ img {
   font-family: "Rosario";
   font-style: italic;
   font-weight: 700;
-  font-size: 3.8rem;
+  font-size: 3.1rem;
   line-height: 5.8rem;
   color: var(--black);
 }
@@ -169,13 +169,14 @@ img {
 }
 .services__couple {
   position: absolute;
-  max-width: 30.4%;
+  width: 30.4%;
+  height: 38.7%;
   left: 12%;
   top: 16%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: couple 8s linear infinite;
+  animation: couple 8s cubic-bezier(1,0.7,0.7,1) infinite;
 }
 .services__couple:nth-child(1) {
   animation-delay: 0s;
