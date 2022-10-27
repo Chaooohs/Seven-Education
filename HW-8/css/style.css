@@ -311,7 +311,9 @@ td {
   width: 30%;
   height: 100%;
 }
-
+footer {
+  position: relative;
+}
 .footer {
   display: flex;
   justify-content: space-evenly;
